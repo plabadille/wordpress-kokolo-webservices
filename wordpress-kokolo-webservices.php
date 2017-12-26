@@ -17,8 +17,11 @@ require_once( 'kokolo-config.php' );
 
 // Entity declaration
     // Custom post types (Require CPT UI plugin)
+    require_once( 'custom-post-types/product_design.php' );
 
     // Custom fields (Require ACF)
+    require_once( 'custom-fields/product_details.php' );
+    require_once( 'custom-fields/product_design_details.php' );
 
 // Models
     // Kokolo specific models
